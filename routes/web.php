@@ -22,6 +22,7 @@ Route::resource('/articles', std_matierepremiereController::class);
 Route::resource('/show', std_matierepremiereController::class);
 Route::resource('/edit', std_matierepremiereController::class);
 Route::resource('/destroy', std_matierepremiereController::class);
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
