@@ -14,6 +14,7 @@ class CreateStdFamilleTable extends Migration
     public function up()
     {
         Schema::create('std_famille', function (Blueprint $table) {
+             
             $table->integer('id_auto', true);
             $table->integer('id_auto_migration')->nullable();
             $table->integer('customer_id')->nullable();

@@ -1,7 +1,18 @@
 @extends('articles.layout')
   
 @section('content')
-    <div class="row">
+
+
+
+
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css" rel="stylesheet">
+
+
+<div class="container center_div"   >
+   <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
                 <h2> Show articles</h2><br/>
@@ -12,6 +23,8 @@
         </div>
     </div>
    
+    <div class="col-md-4 col-md-offset-4">
+
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
@@ -68,4 +81,6 @@
             </div>
         </div>
     </div>
+    </div>   
+    </div> 
 @endsection
